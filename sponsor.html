@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Спонсоры</title>
+<!-- Подключение шрифта, если нужно -->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+<style>
+/* Общие стили сайта, адаптированные для новой страницы */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  line-height: 1.6;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+/* Заголовки */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #00ffe1;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1;
+}
+
+/* Раздел спонсоров */
+section {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px 30px;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeInUp 1s ease;
+}
+
+/* Заголовки разделов */
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00ffe1;
+  text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1;
+}
+
+/* Список спонсоров */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Стили для ссылок-закладок */
+a {
+  color: #ff6ec4;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #fff;
+}
+
+/* Стиль для кнопки/ссылки */
+.chan-btn {
+  background: linear-gradient(45deg, #229ed9, #00ffe1);
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(34, 158, 217, 0.4);
+  transition: all 0.3s ease;
+  margin: 0 10px;
+  display: inline-block;
+  animation: pulse 2s infinite;
+  border: none;
+  margin-top: 10px;
+}
+
+/* Ховер эффект для кнопки */
+.chan-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(34, 158, 217, 0.6);
+}
+
+/* Анимация пульсации */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>Наши спонсоры & Поддержка</h1>
+
+<!-- Спонсор 1 -->
+<section>
+  <h2>ЗетКорд</h2>
+  <p>Кодер сайта, помощник:</p>
+  <a href="https://t.me/zetcord" target="_blank" class="chan-btn">Телеграм канал</a>
+</section>
+
+<!-- Спонсор 2 -->
+<section>
+  <h2>Zurik</h2>
+  <p>Кодер сайта, помощник</p>
+  <a href="https://t.me/zuriksocial" target="_blank" class="chan-btn">Телеграм канал</a>
+</section>
+
+<!-- Спонсор 3 -->
+<section>
+  <h2>Канал Смертникафф</h2>
+  <p>смертный</p>
+  <a href="https://t.me/cmertnikoffc_channel" target="_blank" class="chan-btn">Телеграм канал</a>
+</section>
+
+<!-- Спонсор 4 -->
+<section>
+  <h2>NatanO'Sant</h2>
+  <p>Поддержите нашего креатора:</p>
+  <a href="https://t.me/natanosantlive" target="_blank" class="chan-btn">Телеграм канал</a>
+</section>
+
+<!-- Возврат на главную страницу -->
+<div style="text-align:center; margin-top:30px;">
+  <a href="index.html" class="chan-btn" style="background:linear-gradient(45deg, #ff6ec4, #7873f5);">Вернуться на главную</a>
+</div>
+
+</body>
+</html>
